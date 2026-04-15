@@ -24,9 +24,10 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
-
-console.log(d);
+let personName = "Alice";
+let purchases = 5;
+let cash = 20;
+let date = "Friday";
+let time = "noon";
+let sundayFunday = personName + " bought " + purchases + " items for $" + cash+ " on " + date + " at " + time + ".";
+console.log(sundayFunday)
